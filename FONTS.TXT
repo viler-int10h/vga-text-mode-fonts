@@ -1,0 +1,252 @@
+A little bit about the included fonts.  First thing's first:
+
+AS FAR AS I AM ABLE TO DETERMINE, AFTER DISPROPORTIONATE AMOUNTS OF RESEARCH,
+INCLUDING THESE PLAIN BITMAP FONTS HERE DOES *NOT* CONSTITUTE A VIOLATION OF
+ANY ASSOCIATED COPYRIGHTS OR COPYLEFTS.  IF YOU ARE THE CREATOR OF ANY OF
+THESE FONTS, AND AREN'T HAPPY ABOUT THEM BEING HERE - OR PERHAPS WEREN'T
+CREDITED? - BE REASONABLE, CONTACT ME (VILER AT INT10H DOT ORG) AND WE'LL SEE
+WHAT WE CAN DO.
+
+
+Thanks go to those who provided the source data used to create some of these
+fonts: keropi, viznut (for Unscii), SomeGuy, Thomas Schneider, Michael Huth,
+Joseph Gil, Maze, Jo22, John Elliot, modem7, jesolo, Svenska, James Howard,
+MAZter, and anyone else I may have forgotten.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ * All in the main 'FONTS' directory are self-created/modified; some are based
+   on other sources: AIXOID# on an early IBM RT PC system font, DOSVLIKE on
+   the Japanese DOS/V, FM437 on the FM Towns charsets, EDDA9 on the Edda
+   typeface.
+
+
+ * UNSCII\ - Partial conversions of Viznut's formidable Unscii project,
+             remapped by myself to various DOS codepages.  For info and
+             descriptions, see: http://pelulamu.net/unscii/
+
+
+ * BIGPILE\ - An assorted bunch of fonts I accumulated over the years.  Many
+              of them are from Joseph Gil's public domain FNTCOL16 package;
+              for more info and descriptions of where they came from, grab it
+              at http://www.lanet.lv/ftp/simtelnet/msdos/screen/fntcol16.zip
+              and see the included fontorig.txt.
+              However, quite a few fonts from that pack originate from other
+              software, OSes etc., so to unclutter things they have been
+              moved to approrpriate directories below.
+    
+
+ * SOFTWARE\ - Fonts collected from various programs and utilities:
+   |
+   +-- CAFE\     : CAFE font editor (TBH-Softworx)
+   |
+   +-- CHET\     : CHET Character Font Editor (an early one - by Mylex, 1986)
+   |
+   +-- DFE\      : Rimrock Software's Display Font Editor, v1.04 (1991)
+   |
+   +-- FE2\      : FontEdit II set by SEI Soft / Ivan Llanas (1994)
+   |
+   +-- HEB_UTIL\ : Hebrew-specific screen utilities (1983 - ?)
+   |
+   +-- HERCPLUS\ : 'RAMfonts' bundled w/the Hercules Plus graphics card (1986)
+   |
+   +-- HERCPMOD\ : Some of the above, modified/fixed (from the FNTCOL16 pack)
+   |
+   +-- INTEXT\   : Intext Multilingual Wordprocessor v1.2 shareware (1990)
+   |
+   +-- NANTOOLS\ : Font editor for Nantucket Tools II, Lothar Bongartz '89-'91
+   |
+   +-- RU_UTIL\  : Russian-specific screen utilities (Z, Shadow Font Loader)
+   |
+   +-- SEEMORE\  : Fonts adapted from See More for Lotus 1-2-3, 1988
+   |
+   +-- SPEA_GDC\ : Font editor bundled w/some SPEA Graphiti video cards, ~1992
+   |
+   +-- ULTRAVIS\ : Fonts supplied (I think?) w/Laptop UltraVision v2.12, 1992
+   |
+   +-- VGAGREEK\ : Greek-specific screen utility (VGAGREEK, A. Karageorgiou)
+   |
+   +-- VIET\     : VIET v1.6 (Vietnamese text editor, Hoa G. Nguyen, 1991)
+   |
+   +-- XGA_DRV\  : Alternate fonts from IBM XGA util disk, adapted to VGA size
+
+
+ * SYSTEM\ - Fonts adapted and converted from PC operating systems:
+   |
+   +-- CMPQDOS6\ : Additional codepages from Compaq-DOS 6; German ZH 1/618
+   |               fonts (GR*), thin fonts (TH*)
+   +-- DOSMIXED\ : Various versions of DOS; the 19-line fonts (*.F19), and
+   |               perhaps others, come from AST Premium Exec-DOS 5
+   +-- FREEBSD\  : From syscons, the FreeBSD console driver; see:
+   |               http://web.mit.edu/freebsd/head/share/syscons/fonts/
+   +-- FREEDOS\  : From Henrique Peron's extensive set FreeDOS code pages; for
+   |               more information see: http://www.fdos.org/kernel/cpi/
+   +-- OS2\      : From the OS/2 VIO terminal/console font set, remapped by
+   |               myself to various DOS codepages; 8-dot fonts only
+   +-- PCDOS2K\  : From PC-DOS 2000: various codepages (CP*), their ISO 9241-3
+                   variants (ISOCP*), and a few 8-bit fonts from East-Asian
+                   versions: Chinese Simplified (CN-PRC*), Taiwan/Chinese
+                   Traditional (CN-TWN*), Korean (KR-DOS), and the Japanese
+                   PC-DOS J7.00C-V.
+
+
+ * PC-IBM\ - IBM PC hardware fonts; identical to those in my Oldschool PC Font
+   |         Pack (more info at https://int10h.org/oldschool-pc-fonts/)
+   |       - NOTE: some 8x8 fonts have versions with a "_D" suffix - these are
+   |         2x height, to approximate the aspect ratio in 80-column mode
+   |
+   + 3270PC9.F14   IBM 5271 (3270 PC) charset, 9x14
+   + BIOS*.F??     IBM PC BIOS (also EGA/VGA/+), 8x8
+   + CGA*.F??      IBM CGA (and PCjr) standard, 8x8
+   + CGA-TH*.F??   IBM CGA alternate 1-dot font, 8x8
+   + EGA8.F14      IBM EGA 8x14 (standard)
+   + EGA9.F14      IBM EGA 9x14 (mono emulation mode)
+   + ISO.F16       IBM PC-DOS 5.02+, ISO 9241-3-compliant font, 8x16
+   + MDA9.F14      IBM MDA, 9x14
+   + PCCONV*.F08   IBM 5140 (PC Convertible) default, 8x8
+   + PGC.F16       IBM Professional Graphics Controller, 8x16
+   + PS2OLD?.F16   IBM PS/2 model 30 "rev. 0" (1986 BIOS), 8+9x16
+   + PS2THIN?.F16  IBM PS/2 model 30/35 alternate thin fonts, 8(/9?)x16
+   + VGA8.F16      IBM VGA/MCGA, 8x16
+   + VGA9.F16      IBM VGA (standard), 9x16
+
+
+ * PC-OTHER\ - Various PC hardware from non-IBM manufactures; these too are a
+   |           superset of the Oldskool PC Font Pack (+see PC_IBM note above):
+   |
+   + 3DL-A8.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 8-dot modes
+   + 3DL-A9.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 9-dot modes    
+   + 3DL-B.F??     3DLabs - Wildcat, Oxygen (G)VX, Permedia 2V (no 9-dot alts)
+   + ACER710*.F??  Acer 710, color font, 8x8
+   + ACERV8*.F??   Acer M3125 VGA BIOS, fonts for 8-dot modes
+   + ACERV9*.F??   Acer M3125 VGA BIOS, fonts for 9-dot modes
+   + AMIEGA8*.F08  AMI-EGA (Matrox PG1281), 8x8
+   + AMIEGA9.F14   AMI-EGA (Matrox PG1281), 9x14
+   + AST-EXEC.F19  AST Premium Exec portable (Square-pixel 640x480), 8x19
+   + ATI8X*.F??    ATI video cards (various), fonts for 8-dot modes
+   + ATI9X*.F??    ATI video cards (various), fonts for 9-dot modes
+   + ATIKRVGA.F16  ATI Korean VGA BIOS (KSC5601), 8x16
+   + ATISMLW6.F08  ATI Small Wonder 132-col font, 8x8 - originally 6x8
+   + C&T-HIQV.F??  Chips & Technologies HiQVideo, 69000/65555x (no 9-dot alts)
+   + CL5320-8.F16  Cirrus Logic GD-5320, 8x16 font
+   + CL5320-9.F16  Cirrus Logic GD-5320, 9x16 font
+   + CLPORT8.F??   Cirrus Logic Portable CL-GD6x0/620, fonts for 8-dot modes
+   + CLPORT8B.F??  Cirrus Logic Portable CL-GD610/620, bold for mono panels
+   + CLPORT9.F16   Cirrus Logic Portable CL-GD6x0/620, 9x16 font
+   + COMPAQP3.F16  Compaq Portable III & Portable 386, 8x16
+   + COMPAQTH.F??  Compaq-DOS v3.31 additional thin fonts
+   + COPAMX*.F??   COPAM XT clone BIOS, TD3.86, 8x8
+   + DG1*.F??      Data General One (first model), default 8x8 font
+   + DG1ALT*.F??   Data General One (first model), alternate "bold" 8x8 font
+   + DTK8X8*.F08   Generic DTK/ERSO XT clone BIOS, 8x8
+   + EAGLE1*.F??   Eagle Computer Spirit PC CGA (70-5024B), alt. font #1
+   + EAGLE2*.F??   Eagle Computer Spirit PC CGA (70-5024B), alt. font #2
+   + EAGLE3*.F??   Eagle Computer Spirit PC CGA (70-5024B), alt. font #3
+   + EPSONQ1?.F??  Epson Q205A CGA/mono card, font #1
+   + EPSONQ2?.F??  Epson Q205A CGA/mono card, font #2
+   + EPSONQM9.F14  Epson Q205A CGA/mono card, monochrome font, 9x14
+   + EVXME132.F08  Everex EV-657/Micro Enhancer Deluxe EGA, 5x8 (132 columns)
+   + EVXME94.F08   Everex EV-657/Micro Enhancer Deluxe EGA, 7x8 (94 columns)
+   + EVXMEEGA.F16  Everex EV-659A/Micro Enhancer EGA, 8x16
+   + GNEGA132.F??  Genoa 800x600 SuperEGA driver - fonts for 132-column modes
+   + IGSVGA8.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 8x16 font   
+   + IGSVGA9.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 9x16 font
+   + INTELV8.F??   Intel i740-based VGA cards, fonts for 8-dot modes
+   + INTELV9.F16   Intel i740-based VGA cards, 9x16 font
+   + ITTX*.F??     ITT Xtra (BIOS v2.00/DOS 3.20), US charset, 8x8
+   + ITTXNW*.F??   ITT Xtra (BIOS v2.00/DOS 3.20), Norwegian charset, 8x8
+   + KPRO2K*.F??   Kaypro 2000 BIOS, 8x8
+   + LBPC*.F??     Ampro Little Board/PC SBC, 8x8
+   + LE-D??.F??    Leading Edge PC Model D, CGA font, 8x8
+   + LE-D9.F14     Leading Edge PC Model D, monochrome font, 9x14
+   + MBC16B*.F??   Sanyo MBC-16 BIOS, 8x8
+   + MBC55X*.F??   Sanyo MBC 550/555, 8x8
+   + MBPC230?.F??  Micro Byte PC230, fonts for 8-dot modes
+   + MBPC230M.F14  Micro Byte PC230, monochrome, 9x14
+   + MPACT*.F??    Chromatic Research MPACT 2 VGA fonts (no 9-dot alts)
+   + NIX-M15A.F16  Nixdorf 8810 M15 (PC07) portable, US charset, 8x16
+   + NIX-M15B.F16  Nixdorf 8810 M15 (PC07) portable, Nordic charset, 8x16
+   + NIX-M16.F16   Nixdorf 8810 M16 (PC17) portable, 8x16
+   + NIX-M35*.F??  Nixdorf 8810 M35, on-board CGA, 8x8
+   + OLIVGR*.F??   Olivetti OEM MS-DOS 3.30a, Greek fonts
+   + OLIVM15*.F??  Olivetti M15(/-Plus) portable BIOS, adapted to cp437
+   + OLIVTHIN.F16  Olivetti OEM MS-DOS 3.30a, additional thin 8x16 font
+   + PC1640A?.F??  Amstrad PC1640/PC1512 (US), 8x8
+   + PC1640B?.F??  Amstrad PC1640/PC1512 (Danish), 8x8
+   + PC1640C?.F??  Amstrad PC1640 [only] (Portuguese), 8x8
+   + PC1640D?.F??  Amstrad PC1640/PC1512 (Greek), 8x8
+   + PC6300.F16    AT&T PC6300, 8x16
+   + PHXBIOS*.F??  Phoenix BIOS v2.x, 8x8
+   + PHXEGA8*.F??  Phoenix 82C435 EGA cards, fonts for 8-dot modes
+   + PHXEGA9.F14   Phoenix 82C435 EGA cards, 9x14 (mono emulation mode)
+   + PHXVGA8.F??   Phoenix VGA BIOS, from Biostar Venus 3D (no 9-dot alts)
+   + PPC1*.F??     Amstrad PPC/PC20 (US), 8x8
+   + PPC2*.F??     Amstrad PPC/PC20 (Danish), 8x8
+   + PPC3*.F??     Amstrad PPC/PC20 (Portuguese), 8x8
+   + PPC4*.F??     Amstrad PPC/PC20 (Greek), 8x8
+   + PPC-M1.F14    Amstrad PPC/PC20 (US) mono external, 8x14
+   + PPC-M2.F14    Amstrad PPC/PC20 (Danish) mono external, 8x14
+   + PPC-M3.F14    Amstrad PPC/PC20 (Portuguese) mono external, 8x14
+   + PPC-M4.F14    Amstrad PPC/PC20 (Greek) mono external, 8x14
+   + PVGAP132.F??  Paradise VGA Plus driver - fonts for 132-column modes
+   + SEEQUA.F??    Seequa Chameleon, 8x8
+   + SHARP3K1.F08  Sharp PC-3000, normal font, 8x8
+   + SHARP3K2.F08  Sharp PC-3000, thin font, 8x8
+   + SIGRM8.F??    Sigma Designs RealMagic GX64, fonts for 8-dot modes
+   + SIGRM9.F??    Sigma Designs RealMagic GX64, fonts for 9-dot modes
+   + SM910*.F??    Silicon Motion SM910 VGA fonts (no 9-dot alts)
+   + SPERRY*.F??   Sperry PC (HT 3070-03) CGA, 8x8
+   + SPERRYHI.F16  Sperry PC (HT 3070-03) hi-res color, 8x16
+   + STB-EGA8.F14  STB EGA (C&T C82C435/6 chipset), 8x14
+   + STB-EGA9.F14  STB EGA (C&T C82C435/6 chipset), 9x14 (mono emulation mode)
+   + T3100-A1.F??  Toshiba T3100 2-dot, charset 1 (cp437)
+   + T3100-A2.F??  Toshiba T3100 2-dot, charset 2 (cp850)
+   + T3100-A3.F??  Toshiba T3100 2-dot, charset 3 (Latin-?)
+   + T3100-A4.F??  Toshiba T3100 2-dot, charset 4 (Nordic)
+   + T3100-B1.F??  Toshiba T3100 1-dot, charset 1 (cp437)
+   + T3100-B2.F??  Toshiba T3100 1-dot, charset 2 (cp850)
+   + T3100-B3.F??  Toshiba T3100 1-dot, charset 3 (Latin-?)
+   + T3100-B4.F??  Toshiba T3100 1-dot, charset 4 (Nordic)
+   + TANDY1*.F??   Early Tandy 1000, 200-line (8x8) & 225-line (8x9)
+   + TANDY2*.F??   Later Tandy 1000, 200-line (8x8) & 225-line (8x9)
+   + TANDY2M9.F14  Later Tandy 1000, monochrome, 9x14
+   + TOSH-SAT.F??  Toshiba Satellite 4200 portables
+   + TRI88CS8.F??  Trident TVGA 8800CS (BIOS C3-129), fonts for 8-dot modes
+   + TRI88CS9.F??  Trident TVGA 8800CS (BIOS C3-129), fonts for 9-dot modes
+   + TRI88CSO.F11  Trident TVGA 8800CS (Octek/BIOS C3-A1238 v1.01), 8x11 font
+   + TRI89B.F11    Trident TVGA 8900B (Octek/1138F0211), 8x11 font
+   + TRIVGA8.F??   Trident TVGA (various/later), fonts for 8-dot modes
+   + TRIVGA9.F??   Trident TVGA (various/later), fonts for 9-dot modes
+   + VERITE*.F??   Rendition Verite VGA chipsets (no 9-dot alts)
+   + VTECH*.F??    Vtech Laser XT BIOS, 8x8
+
+
+ * NON-PC\ - Contains some non-PC (and "almost PC-compatible") charsets:
+   |
+   + APC-III.F??   NEC APC III (MS-DOS, cp437)
+   + APRI-M.F16    ACT Apricot PC/Xi/F1/F2/Xen - mono, 9x16 (orig. 10x16)
+   + APRI200?.F??  ACT Apricot PC/Xi/F1/F2 - color (200-line), 8x8
+   + APRI256?.F??  ACT Apricot PC/Xi/F1/F2 - color (256-line), 8x10
+   + APRIPORT.F08  ACT Apricot Portable, 8x8
+   + APRIXENC.F14  ACT Apricot Xen, color, 8x14
+   + AS-100.F16    Canon AS-100 (CP/M)
+   + ATARIPOF.F08  Atari Portfolio palmtop, 8x8
+   + COMPIS.F16    TeleNova Compis (MS-DOS, cp437)
+   + FM-TOWNS.F??  FM-Towns ROM fonts (single-byte/non-Kanji)
+   + KAYPRO10.F??  Kaypro 10 CP/M portable
+   + KAYPROII.F??  Kaypro II (actually the first Kaypro model...)
+   + MINDSET*.F??  Mindset M1001 v1.07 ROM BIOS
+   + NIMBUS*.F??   RM Nimbus PC-186
+   + OTRONA-A.F??  Otrona Attache chargen fonts
+   + RB100*.F??    DEC Rainbow 100
+   + SIEMPCD.F14   Siemens PC-D (cp437)
+   + TANDY2K1.F16  Tandy 2000 DOS
+   + TANDY2K2.F??  Tandy 2000 ROM
+   + TOSHT300.F??  Toshiba T300 PC (MS-DOS, cp437)
+   + VT220*.F??    DEC VT200 terminal
+   + WANG437*.F??  Wang Professional Computer low-res (MS-DOS, cp437)
+   + WANGPCL*.F??  Wang Professional Computer low-res (native charset), 8x9
+   + WANGPCM*.F??  Wang Professional Computer medium/mono, 9x12 (orig. 10x12)
+   + YES-GR*.F??   Philips :YES, color graphics mode, 8x10
+   + YES-T*.F??    Philips :YES, color text mode, 8x10
