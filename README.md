@@ -8,4 +8,4 @@ All fonts here are monospaced, 8 pixels wide, and up to 32 lines tall.  They're 
 * For compatibility with Fontraption (and DOS in general), filenames are in the 8.3 format.
 * As a convention, file extensions are ".F??" with two final digits specifying the font's height.
 
-**NOTE:** Git doesn't preserve file dates!  Dates are an important historical cue in a collection like this -- to have them intact, grab the latest archive from the [Releases page](./releases).
+**NOTE:** Git doesn't preserve file dates!  Dates are an important historical cue in a collection like this -- to have them intact, grab the latest archive from the [Releases page](../../releases).
