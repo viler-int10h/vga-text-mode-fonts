@@ -208,10 +208,10 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + T3100-B2.F??  Toshiba T3100 1-dot, charset 2 (cp850)
    + T3100-B3.F??  Toshiba T3100 1-dot, charset 3 (Latin-?)
    + T3100-B4.F??  Toshiba T3100 1-dot, charset 4 (Nordic)
-   + TELEPC*.F??   Televideo TS-1605 (Tele-PC), 8x9
    + TANDY1*.F??   Early Tandy 1000, 200-line (8x8) & 225-line (8x9)
    + TANDY2*.F??   Later Tandy 1000, 200-line (8x8) & 225-line (8x9)
    + TANDY2M9.F14  Later Tandy 1000, monochrome, 9x14
+   + TELEPC*.F??   Televideo TS-1605 (Tele-PC), 8x9
    + TOSH-SAT.F??  Toshiba Satellite 4200 portables
    + TRI88CS8.F??  Trident TVGA 8800CS (BIOS C3-129), fonts for 8-dot modes
    + TRI88CS9.F??  Trident TVGA 8800CS (BIOS C3-129), fonts for 9-dot modes
