@@ -35,7 +35,7 @@ MAZter, Trixter, and anyone else I may have forgotten.
               However, quite a few fonts from that pack originate from other
               software, OSes etc., so to unclutter things they have been
               moved to approrpriate directories below.
-    
+
 
  * SOFTWARE\ - Fonts collected from various programs and utilities:
    |
@@ -116,7 +116,7 @@ MAZter, Trixter, and anyone else I may have forgotten.
    |           superset of the Oldskool PC Font Pack (+see PC_IBM note above):
    |
    + 3DL-A8.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 8-dot modes
-   + 3DL-A9.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 9-dot modes    
+   + 3DL-A9.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 9-dot modes
    + 3DL-B.F??     3DLabs - Wildcat, Oxygen (G)VX, Permedia 2V (no 9-dot alts)
    + ACER710*.F??  Acer 710, color font, 8x8
    + ACERV8*.F??   Acer M3125 VGA BIOS, fonts for 8-dot modes
@@ -150,7 +150,19 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + EVXME94.F08   Everex EV-657/Micro Enhancer Deluxe EGA, 7x8 (94 columns)
    + EVXMEEGA.F16  Everex EV-659A/Micro Enhancer EGA, 8x16
    + GNEGA132.F??  Genoa 800x600 SuperEGA driver - fonts for 132-column modes
-   + IGSVGA8.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 8x16 font   
+   + HP-LX6.F08    HP 100/200LX, US charset (CP437), 6x8
+   + HP-LX6CF.F08  HP 100/200LX, Canada-French charset (CP863), 6x8
+   + HP-LX6L1.F08  HP 100/200LX, Latin-1 charset (CP850), 6x8
+   + HP-LX6L2.F08  HP 100/200LX, Latin-2 charset (CP852), 6x8
+   + HP-LX6NO.F08  HP 100/200LX, Norwegian charset (CP865), 6x8
+   + HP-LX6PT.F08  HP 100/200LX, Portuguese charset (CP860), 6x8
+   + HP-LX8.F08    HP 100/200LX, US charset (CP437), 8x8
+   + HP-LX8CF.F08  HP 100/200LX, Canada-French charset (CP863), 8x8
+   + HP-LX8L1.F08  HP 100/200LX, Latin-1 charset (CP850), 8x8
+   + HP-LX8L2.F08  HP 100/200LX, Latin-2 charset (CP852), 8x8
+   + HP-LX8NO.F08  HP 100/200LX, Norwegian charset (CP865), 8x8
+   + HP-LX8PT.F08  HP 100/200LX, Portuguese charset (CP860), 8x8
+   + IGSVGA8.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 8x16 font
    + IGSVGA9.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 9x16 font
    + INTELV8.F??   Intel i740-based VGA cards, fonts for 8-dot modes
    + INTELV9.F16   Intel i740-based VGA cards, 9x16 font
