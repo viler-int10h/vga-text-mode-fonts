@@ -102,6 +102,9 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + CGA-TH*.F??   IBM CGA alternate 1-dot font, 8x8
    + EGA8.F14      IBM EGA 8x14 (standard)
    + EGA9.F14      IBM EGA 9x14 (mono emulation mode)
+   + EUCGA*.F??    IBM CGA, European (DK/NO/PT charset), 8x8
+   + EUCGAT*.F??   IBM CGA, European (DK/NO/PT charset), alt. 1-dot font, 8x8
+   + EUMDA9.F14    IBM MDA, European (DK/NO/PT charset), 9x14
    + ISO.F16       IBM PC-DOS 5.02+, ISO 9241-3-compliant font, 8x16
    + MDA9.F14      IBM MDA, 9x14
    + PCCONV*.F08   IBM 5140 (PC Convertible) default, 8x8
@@ -119,6 +122,8 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + 3DL-A9.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 9-dot modes
    + 3DL-B.F??     3DLabs - Wildcat, Oxygen (G)VX, Permedia 2V (no 9-dot alts)
    + ACER710*.F??  Acer 710, color font, 8x8
+   + ACERGRM9.F14  Acer 500+ II CGA/mono card - Greek, monochrome font, 9x14
+   + ACERGRC*.F??  Acer 500+ II CGA/mono card - Greek, CGA font, 8x8
    + ACERV8*.F??   Acer M3125 VGA BIOS, fonts for 8-dot modes
    + ACERV9*.F??   Acer M3125 VGA BIOS, fonts for 9-dot modes
    + AMIEGA8*.F08  AMI-EGA (Matrox PG1281), 8x8
@@ -128,6 +133,8 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + ATI9X*.F??    ATI video cards (various), fonts for 9-dot modes
    + ATIKRVGA.F16  ATI Korean VGA BIOS (KSC5601), 8x16
    + ATISMLW6.F08  ATI Small Wonder 132-col font, 8x8 - originally 6x8
+   + ATISWGR*.F??  ATI Small Wonder rev1 - Greek, CGA font, 8x8
+   + ATISWGR9.F14  ATI Small Wonder rev1 - Greek, monochrome font, 9x14
    + C&T-HIQV.F??  Chips & Technologies HiQVideo, 69000/65555x (no 9-dot alts)
    + CL5320-8.F16  Cirrus Logic GD-5320, 8x16 font
    + CL5320-9.F16  Cirrus Logic GD-5320, 9x16 font
@@ -150,6 +157,7 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + EVXME94.F08   Everex EV-657/Micro Enhancer Deluxe EGA, 7x8 (94 columns)
    + EVXMEEGA.F16  Everex EV-659A/Micro Enhancer EGA, 8x16
    + GNEGA132.F??  Genoa 800x600 SuperEGA driver - fonts for 132-column modes
+   + GRMONOX9.F14  Greek MDA clone (unknown), Greek charset, monochrome, 9x14
    + HP-LX6.F08    HP 100/200LX, US charset (CP437), 6x8
    + HP-LX6CF.F08  HP 100/200LX, Canada-French charset (CP863), 6x8
    + HP-LX6L1.F08  HP 100/200LX, Latin-1 charset (CP850), 6x8
@@ -162,12 +170,17 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + HP-LX8L2.F08  HP 100/200LX, Latin-2 charset (CP852), 8x8
    + HP-LX8NO.F08  HP 100/200LX, Norwegian charset (CP865), 8x8
    + HP-LX8PT.F08  HP 100/200LX, Portuguese charset (CP860), 8x8
+   + HYUNMGR9.F14  Hyundai Mono-Graphics E40080004 Herc. clone - Greek, 9x14
    + IGSVGA8.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 8x16 font
    + IGSVGA9.F16   InteGraphics IGA 1680-A / Shuttle HOT-137, 9x16 font
    + INTELV8.F??   Intel i740-based VGA cards, fonts for 8-dot modes
    + INTELV9.F16   Intel i740-based VGA cards, 9x16 font
    + ITTX*.F??     ITT Xtra (BIOS v2.00/DOS 3.20), US charset, 8x8
    + ITTXNW*.F??   ITT Xtra (BIOS v2.00/DOS 3.20), Norwegian charset, 8x8
+   + JAT-MC*.F??   Jaton CGA/mono(?) card - US charset, CGA font, 8x8
+   + JAT-MM9.F14   Jaton CGA/mono(?) card - US charset, monochrome font, 9x14
+   + JAT-RMC*.F??  Jaton CGA/mono(?) card - Russian, CGA font, 8x8
+   + JAT-RMM9.F14  Jaton CGA/mono(?) card - Russian, monochrome font, 9x14
    + KPRO2K*.F??   Kaypro 2000 BIOS, 8x8
    + LBPC*.F??     Ampro Little Board/PC SBC, 8x8
    + LE-D??.F??    Leading Edge PC Model D, CGA font, 8x8
@@ -177,6 +190,7 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + MBPC230?.F??  Micro Byte PC230, fonts for 8-dot modes
    + MBPC230M.F14  Micro Byte PC230, monochrome, 9x14
    + MPACT*.F??    Chromatic Research MPACT 2 VGA fonts (no 9-dot alts)
+   + MTGRC*.F??    Memotek 32K character ROM on Greek IBM CGA cards, 8x8 fonts
    + NIX-M15A.F16  Nixdorf 8810 M15 (PC07) portable, US charset, 8x16
    + NIX-M15B.F16  Nixdorf 8810 M15 (PC07) portable, Nordic charset, 8x16
    + NIX-M16.F16   Nixdorf 8810 M16 (PC17) portable, 8x16
@@ -201,7 +215,16 @@ MAZter, Trixter, and anyone else I may have forgotten.
    + PPC-M2.F14    Amstrad PPC/PC20 (Danish) mono external, 8x14
    + PPC-M3.F14    Amstrad PPC/PC20 (Portuguese) mono external, 8x14
    + PPC-M4.F14    Amstrad PPC/PC20 (Greek) mono external, 8x14
+   + PVBGC*.F??    Pravetz CGA - Bulgarian (different encodings), 8x8
    + PVGAP132.F??  Paradise VGA Plus driver - fonts for 132-column modes
+   + RUGENC*.F??   Russian CGA/mono cards (Laser, Winbond, ...?), CGA, 8x8
+   + RUGENM9.F14   Russian CGA/mono cards (Laser, Winbond, ...?), mono, 9x14
+   + RUHGC?-9.F14  Russian Hercules cards (Unknown), monochrome, 9x14
+   + RUMG1C*.F??   Russian CGA/mono(?) card #1 (Unknown), CGA, 8x8
+   + RUMG1M9.F14   Russian CGA/mono(?) card #1 (Unknown), monochrome, 9x14
+   + RUMG2C*.F??   Russian CGA/mono(?) card #2 (Unknown), CGA, 8x8
+   + RUMG2M9.F14   Russian CGA/mono(?) card #2 (Unknown), monochrome, 9x14
+   + RUMONOX9.F14  Russian MDA/Hercules(?) clone, monochrome, 9x14
    + SEEQUA.F??    Seequa Chameleon, 8x8
    + SHARP3K1.F08  Sharp PC-3000, normal font, 8x8
    + SHARP3K2.F08  Sharp PC-3000, thin font, 8x8
