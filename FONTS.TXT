@@ -11,7 +11,7 @@ WHAT WE CAN DO.
 Thanks go to those who provided the source data used to create some of these
 fonts: keropi, viznut (for Unscii), SomeGuy, Thomas Schneider, Michael Huth,
 Joseph Gil, Maze, Jo22, John Elliot, modem7, jesolo, Svenska, James Howard,
-MAZter, Trixter, and anyone else I may have forgotten.
+MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
