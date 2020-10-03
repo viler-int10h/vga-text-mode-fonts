@@ -1,6 +1,6 @@
 # Bitmap fonts compatible w/VGA text mode
 
-Compiled for use with the [Fontraption font editor](https://int10h.org/blog/2019/05/fontraption-vga-text-mode-font-editor/).  Contains **1698** font files (as of 2020-09-14).
+Compiled for use with the [Fontraption font editor](https://int10h.org/blog/2019/05/fontraption-vga-text-mode-font-editor/).  Contains **1713** font files (as of 2020-10-03).
 
 * See [FONTS.TXT](FONTS.TXT) for detailed information, font descriptions, origins, and credits.
 * For compatibility with Fontraption (and DOS in general), filenames are in the 8.3 format.

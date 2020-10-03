@@ -47,6 +47,8 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    |
    +-- FE2\      : FontEdit II set by SEI Soft / Ivan Llanas (1994)
    |
+   +-- FONTMAN\  : Fontman v2.2 font editor by Horst Schaeffer (1995)
+   |
    +-- HEB_UTIL\ : Hebrew-specific screen utilities (1983 - ?)
    |
    +-- HERCPLUS\ : 'RAMfonts' bundled w/the Hercules Plus graphics card (1986)
@@ -62,6 +64,8 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    +-- SEEMORE\  : Fonts adapted from See More for Lotus 1-2-3, 1988
    |
    +-- SPEA_GDC\ : Font editor bundled w/some SPEA Graphiti video cards, ~1992
+   |
+   +-- TSENGFED\ : Font editor bundled w/some Tseng Labs video cards, '88 - ?
    |
    +-- ULTRAVIS\ : Fonts supplied (I think?) w/Laptop UltraVision v2.12, 1992
    |
@@ -279,6 +283,7 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + SIEMPCD.F14   Siemens PC-D (cp437)
    + TANDY2K1.F16  Tandy 2000 DOS
    + TANDY2K2.F??  Tandy 2000 ROM
+   + TI-PC-9.F12   TI Professional Computer (adapted for VGA), 9x12 
    + TOSHT300.F??  Toshiba T300 PC (MS-DOS, cp437)
    + VT220*.F??    DEC VT200 terminal
    + WANG437*.F??  Wang Professional Computer low-res (MS-DOS, cp437)
