@@ -11,7 +11,8 @@ WHAT WE CAN DO.
 Thanks go to those who provided the source data used to create some of these
 fonts: keropi, viznut (for Unscii), SomeGuy, Thomas Schneider, Michael Huth,
 Joseph Gil, Maze, Jo22, John Elliot, modem7, jesolo, Svenska, James Howard,
-MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
+MAZter, Trixter, alecv, alexanrs, per, T-Squared, and anyone else I may have
+forgotten.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -86,6 +87,8 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    |               http://web.mit.edu/freebsd/head/share/syscons/fonts/
    +-- FREEDOS\  : From Henrique Peron's extensive set FreeDOS code pages; for
    |               more information see: http://www.fdos.org/kernel/cpi/
+   +-- OLIDOS33\ : From MS-DOS 3.30a Olivetti OEM version; fonts contained in
+   |               an extended EGA.CPI codepage file
    +-- OS2\      : From the OS/2 VIO terminal/console font set, remapped by
    |               myself to various DOS codepages; 8-dot fonts only
    +-- PCDOS2K\  : From PC-DOS 2000: various codepages (CP*), their ISO 9241-3
@@ -126,6 +129,7 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + 3DL-A9.F??    3DLabs - Oxygen GMX/RPM & Permedia 2, fonts for 9-dot modes
    + 3DL-B.F??     3DLabs - Wildcat, Oxygen (G)VX, Permedia 2V (no 9-dot alts)
    + ACER710*.F??  Acer 710, color font, 8x8
+   + ACER710M.F14  Acer 710, monochrome font, 9x14
    + ACERGRM9.F14  Acer 500+ II CGA/mono card - Greek, monochrome font, 9x14
    + ACERGRC*.F??  Acer 500+ II CGA/mono card - Greek, CGA font, 8x8
    + ACERV8*.F??   Acer M3125 VGA BIOS, fonts for 8-dot modes
@@ -157,6 +161,8 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + EPSONQ1?.F??  Epson Q205A CGA/mono card, font #1
    + EPSONQ2?.F??  Epson Q205A CGA/mono card, font #2
    + EPSONQM9.F14  Epson Q205A CGA/mono card, monochrome font, 9x14
+   + ET2K-132.F08  Tseng Labs ET2000 EVA 480 enhanced EGA, 6x8 (132 columns)
+   + ET2K-132.F14  Tseng Labs ET2000 EVA 480 enhanced EGA, 6x14 (132 columns)
    + EVXME132.F08  Everex EV-657/Micro Enhancer Deluxe EGA, 5x8 (132 columns)
    + EVXME94.F08   Everex EV-657/Micro Enhancer Deluxe EGA, 7x8 (94 columns)
    + EVXMEEGA.F16  Everex EV-659A/Micro Enhancer EGA, 8x16
@@ -191,6 +197,7 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + LE-D9.F14     Leading Edge PC Model D, monochrome font, 9x14
    + MBC16B*.F??   Sanyo MBC-16 BIOS, 8x8
    + MBC55X*.F??   Sanyo MBC 550/555, 8x8
+   + MBC775*.F??   Sanyo MBC 775/885, 8x8
    + MBPC230?.F??  Micro Byte PC230, fonts for 8-dot modes
    + MBPC230M.F14  Micro Byte PC230, monochrome, 9x14
    + MPACT*.F??    Chromatic Research MPACT 2 VGA fonts (no 9-dot alts)
@@ -199,6 +206,10 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + NIX-M15B.F16  Nixdorf 8810 M15 (PC07) portable, Nordic charset, 8x16
    + NIX-M16.F16   Nixdorf 8810 M16 (PC17) portable, 8x16
    + NIX-M35*.F??  Nixdorf 8810 M35, on-board CGA, 8x8
+   + OLIPC1EU.F??  Olivetti Prodest PC-1 character ROMs, European charset, 8x8
+   + OLIPC1GR.F??  Olivetti Prodest PC-1 character ROMs, Greek charset, 8x8
+   + OLIPC1HE.F??  Olivetti Prodest PC-1 character ROMs, Hebrew charset, 8x8
+   + OLIPC1TT.F??  Olivetti Prodest PC-1 character ROMs, Teletext(?), 8x8
    + OLIVGR*.F??   Olivetti OEM MS-DOS 3.30a, Greek fonts
    + OLIVM15*.F??  Olivetti M15(/-Plus) portable BIOS, adapted to cp437
    + OLIVTHIN.F16  Olivetti OEM MS-DOS 3.30a, additional thin 8x16 font
@@ -237,8 +248,8 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + SM910*.F??    Silicon Motion SM910 VGA fonts (no 9-dot alts)
    + SPERRY*.F??   Sperry PC (HT 3070-03) CGA, 8x8
    + SPERRYHI.F16  Sperry PC (HT 3070-03) hi-res color, 8x16
-   + STB-EGA8.F14  STB EGA (C&T C82C435/6 chipset), 8x14
-   + STB-EGA9.F14  STB EGA (C&T C82C435/6 chipset), 9x14 (mono emulation mode)
+   + STB-EGA8.F14  STB AutoEGA (C&T C82C435/6 chipset), 8x14
+   + STB-EGA9.F14  STB AutoEGA (C&T C82C435/6 chipset), 9x14 (mono)
    + T3100-A1.F??  Toshiba T3100 2-dot, charset 1 (cp437)
    + T3100-A2.F??  Toshiba T3100 2-dot, charset 2 (cp850)
    + T3100-A3.F??  Toshiba T3100 2-dot, charset 3 (Latin-?)
@@ -272,6 +283,9 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + APRIXENC.F14  ACT Apricot Xen, color, 8x14
    + AS-100.F16    Canon AS-100 (CP/M)
    + ATARIPOF.F08  Atari Portfolio palmtop, 8x8
+   + BBC512*.F??   Acorn BBC Master 512 (186/DOS Plus), 8x8
+   + BBC512B*.F??  Acorn BBC Master 512 (186/DOS Plus), 8x8 bold/intense
+   + BBC512?X.F20  Acorn BBC Master 512 (186/DOS Plus), Mode 7 (+spacing)
    + COMPIS.F16    TeleNova Compis (MS-DOS, cp437)
    + FM-TOWNS.F??  FM-Towns ROM fonts (single-byte/non-Kanji)
    + KAYPRO10.F??  Kaypro 10 CP/M portable
@@ -283,11 +297,12 @@ MAZter, Trixter, alecv, alexanrs, per, and anyone else I may have forgotten.
    + SIEMPCD.F14   Siemens PC-D (cp437)
    + TANDY2K1.F16  Tandy 2000 DOS
    + TANDY2K2.F??  Tandy 2000 ROM
-   + TI-PC-9.F12   TI Professional Computer (adapted for VGA), 9x12 
+   + TI-PC-9.F12   TI Professional Computer (adapted for VGA), 9x12
    + TOSHT300.F??  Toshiba T300 PC (MS-DOS, cp437)
    + VT220*.F??    DEC VT200 terminal
-   + WANG437*.F??  Wang Professional Computer low-res (MS-DOS, cp437)
-   + WANGPCL*.F??  Wang Professional Computer low-res (native charset), 8x9
-   + WANGPCM*.F??  Wang Professional Computer medium/mono, 9x12 (orig. 10x12)
+   + WANG437*.F??  Wang Professional (MS-DOS), color, 8x9
+   + WANG437M.F??  Wang Professional (MS-DOS), mono, 9x12 (orig. 10x12)
+   + WANGPCL*.F??  Wang Professional, color, 8x9
+   + WANGPCM*.F??  Wang Professional, mono, 9x12 (orig. 10x12)
    + YES-GR*.F??   Philips :YES, color graphics mode, 8x10
    + YES-T*.F??    Philips :YES, color text mode, 8x10
