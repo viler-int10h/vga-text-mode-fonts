@@ -117,7 +117,7 @@ forgotten.
    + PCCONV*.F08   IBM 5140 (PC Convertible) default, 8x8
    + PGC.F16       IBM Professional Graphics Controller, 8x16
    + PS2OLD?.F16   IBM PS/2 model 30 "rev. 0" (1986 BIOS), 8+9x16
-   + PS2THIN?.F16  IBM PS/2 model 30/35 alternate thin fonts, 8(/9?)x16
+   + PS2THIN?.F16  IBM PS/2 16-bit ISA VGA models alternate fonts, 8/9x16
    + VGA8.F16      IBM VGA/MCGA, 8x16
    + VGA9.F16      IBM VGA (standard), 9x16
 
@@ -163,6 +163,8 @@ forgotten.
    + EPSONQM9.F14  Epson Q205A CGA/mono card, monochrome font, 9x14
    + ET2K-132.F08  Tseng Labs ET2000 EVA 480 enhanced EGA, 6x8 (132 columns)
    + ET2K-132.F14  Tseng Labs ET2000 EVA 480 enhanced EGA, 6x14 (132 columns)
+   + EUROPC*.F??   Schneider EuroPC onboard video, CGA font, 8x8
+   + EUROPC9.F14   Schneider EuroPC onboard video, monochrome font, 9x14
    + EVXME132.F08  Everex EV-657/Micro Enhancer Deluxe EGA, 5x8 (132 columns)
    + EVXME94.F08   Everex EV-657/Micro Enhancer Deluxe EGA, 7x8 (94 columns)
    + EVXMEEGA.F16  Everex EV-659A/Micro Enhancer EGA, 8x16
@@ -202,6 +204,10 @@ forgotten.
    + MBPC230M.F14  Micro Byte PC230, monochrome, 9x14
    + MPACT*.F??    Chromatic Research MPACT 2 VGA fonts (no 9-dot alts)
    + MTGRC*.F??    Memotek 32K character ROM on Greek IBM CGA cards, 8x8 fonts
+   + NEC-MS1A.F??  NEC MultiSpeed CP437, normal, 8x8
+   + NEC-MS1B.F??  NEC MultiSpeed CP437, bold/intense, 8x8
+   + NEC-MS2A.F??  NEC MultiSpeed CP437 w/VT100 graphics, normal, 8x8
+   + NEC-MS2B.F??  NEC MultiSpeed CP437 w/VT100 graphics,  bold/intense, 8x8
    + NIX-M15A.F16  Nixdorf 8810 M15 (PC07) portable, US charset, 8x16
    + NIX-M15B.F16  Nixdorf 8810 M15 (PC07) portable, Nordic charset, 8x16
    + NIX-M16.F16   Nixdorf 8810 M16 (PC17) portable, 8x16
@@ -271,10 +277,14 @@ forgotten.
    + TRIVGA9.F??   Trident TVGA (various/later), fonts for 9-dot modes
    + VERITE*.F??   Rendition Verite VGA chipsets (no 9-dot alts)
    + VTECH*.F??    Vtech Laser XT BIOS, 8x8
+   * WVGA8*.F??    Wang 3050 / WVGA-16HR VBIOS v1.02, fonts for 8-dot modes
+   * WVGA9.F??     Wang 3050 / WVGA-16HR VBIOS v1.02, fonts for 9-dot modes
 
 
  * NON-PC\ - Contains some non-PC (and "almost PC-compatible") charsets:
    |
+   + A7100-US.F16  Robotron A7100 (MS-DOS, cp437)
+   + A7100RU?.F16  Robotron A7100 (MS-DOS, alternative Russian encodings)
    + APC-III.F??   NEC APC III (MS-DOS, cp437)
    + APRI-M.F16    ACT Apricot PC/Xi/F1/F2/Xen - mono, 9x16 (orig. 10x16)
    + APRI200?.F??  ACT Apricot PC/Xi/F1/F2 - color (200-line), 8x8
@@ -299,10 +309,12 @@ forgotten.
    + TANDY2K2.F??  Tandy 2000 ROM
    + TI-PC-9.F12   TI Professional Computer (adapted for VGA), 9x12
    + TOSHT300.F??  Toshiba T300 PC (MS-DOS, cp437)
-   + VT220*.F??    DEC VT200 terminal
+   + VT220*.F??    DEC VT220 terminal
    + WANG437*.F??  Wang Professional (MS-DOS), color, 8x9
    + WANG437M.F??  Wang Professional (MS-DOS), mono, 9x12 (orig. 10x12)
    + WANGPCL*.F??  Wang Professional, color, 8x9
    + WANGPCM*.F??  Wang Professional, mono, 9x12 (orig. 10x12)
    + YES-GR*.F??   Philips :YES, color graphics mode, 8x10
    + YES-T*.F??    Philips :YES, color text mode, 8x10
+   + Z100-A*.F??   Zenith Z-100, single-dot font, 8x9
+   + Z100-B*.F??   Zenith Z-100, double-dot font, 8x9
